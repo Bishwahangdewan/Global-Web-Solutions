@@ -1,0 +1,41 @@
+.date{
+    color:#feae24;
+    font-weight:600;
+}
+
+#Blog h3{
+    font-weight:700;
+}
+
+#Blog h4{
+    font-weight: 800;
+}
+
+#Blog h5{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.small-btn{
+    font-size: 14px;
+    padding:5px 20px !important;
+}
+
+#Blog .recent-container{
+    margin-left: 8%;
+}
+
+/*--------------------------MOST POPULAR --------------------*/
+#Popular{
+    width:90%;
+    margin:auto;
+    margin-top:-10%;
+}
+
+/*------------------------MORE-----------------*/
+#More{
+    width:90%;
+    margin:auto;
+    margin-top:10%;
+    margin-bottom:10%;
+}

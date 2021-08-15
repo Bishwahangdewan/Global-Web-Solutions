@@ -1,0 +1,87 @@
+button{
+    z-index: 100;
+}
+/*-----------SHOWCASE---------------------*/
+.showcase-container{
+    margin-top:25vh;
+    margin-bottom:70vh;
+}
+
+/*---------------Services-------------*/
+#About .image-container > img{
+    width:90%;
+    height:90%;
+    margin-top:0%;
+}
+
+#About .about-content {
+    margin-top:2%;
+}
+
+#About .image-container2 >img {
+    margin-top:0%;
+    width:90%;
+    height:90%;
+    margin-left:12%;
+}
+
+#background-img{
+    position:absolute;
+    top:35%;
+    right:0;
+}
+
+#About .digital > .image-container{
+    margin-top:10%;
+}
+
+#About .digital > .image-container > img{
+    margin-left:10%;
+}
+
+.cms .wordpress > .image-container{
+    width:90%;
+    height:90%;
+}
+
+.cms .wordpress > .image-container >img{
+    margin-top: -8%;
+    margin-left: 15%;
+}
+
+.section-cover{
+    background-color: #f4f4f4;
+}
+
+.cms{
+    width:90%;
+    margin:auto;
+    padding-top:8%;
+    margin-bottom: 0;
+}
+
+/*---------------------RESPONSIVE DESIGN--------------*/
+
+@media(max-width:992px){
+    #About .digital > .image-container > img{
+        margin-left:15%;
+    }
+    
+    .section-cover .about-content{
+        text-align:center;
+    }
+    
+    .cms .wordpress > .image-container{
+        margin-top:20%;
+    }
+    
+    .cms .wordpress > .image-container >img{
+        width:60%;
+        height:80%;
+        margin-left: 0%;
+        display:block;
+        margin:auto;
+    }
+
+}
+

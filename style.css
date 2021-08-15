@@ -1,0 +1,620 @@
+*{
+    box-sizing:border-box;
+    font-size:16px;
+    font-family: Nunito;
+    color:#333;
+    line-height:1.8;
+    position:relative;
+}
+
+a{
+    color:#333;
+    transition:0.2s;
+}
+
+a:hover{
+    text-decoration: none;
+    color:#feae24;
+}
+
+button{
+    background-color:#feae24;
+    border:1px solid ;
+    color:white;
+    padding:10px 30px;
+    font-weight: 700;
+    border-radius: 40px;
+    /*border-bottom: 3px solid #f7cb1e;*/
+    transition:0.2s linear;
+}
+
+button:hover{
+    color:#feae24;
+    background-color: white;
+    border:1px solid; 
+    border:1px solid #feae24;
+}
+
+h1{
+    font-size:40px;
+    font-weight:800;
+}
+
+h2{
+    font-size:35px;
+    font-weight:800;
+}
+
+.flex-container{
+    display:flex;
+}
+
+.yellow-text{
+    color: #feae24;
+    font-size:35px;
+}
+
+#bar{
+    display:none;
+}
+
+
+/*--------------HEADER-------------*/
+
+header{
+    padding:1.5% 0%;
+    transition: 0.3s linear;
+}
+
+.custom-container{
+    width:95%;
+    margin:auto;
+}
+
+.nav-margin{
+    margin-left:25%;
+}
+
+header .col-lg-4{
+    padding-top:10px;
+}
+
+header .col-lg-4 > a{
+    font-size: 23px;
+    font-weight:800;
+    color:#333;
+}
+
+header .col-lg-4 > a:hover{
+    text-decoration: none;
+}
+
+header .col-lg-4 > a > span{
+    font-size: 23px;
+    font-weight:800;
+    color:#feae24;
+}
+
+header .col-lg-8{
+    padding-top:6px;
+}
+
+header .col-lg-8  a{
+    font-size: 14px;
+    font-weight: 600;
+    display:inline-block;
+    padding-bottom: 3px;
+    border-bottom:3px solid #feae24;
+    color:#fff;
+    z-index:1;
+    transition:0.1s linear;
+}
+
+header .col-lg-8  a:hover{
+    border-bottom:3px solid #fff;
+}
+
+.navLink{
+    color:#333 !important;
+    padding-bottom:0 !important;
+    border: none !important;
+}
+
+.navLink:hover{
+    color:#feae24 !important;
+}
+
+.active-white{
+    border-bottom:3px solid #fff !important;
+}
+
+.active-orange{
+    border-bottom:3px solid #feae24 !important;
+}
+
+.sticky{
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:100;
+    background-color: #fff;
+    box-shadow: 2px 2px 6px #bbb;
+}
+
+/*---------------SIDEBAR------------------*/
+.sidebar{
+    height:100vh;
+    width:50%;
+    background:rgb(230, 230, 230);
+    position:fixed;
+    transition:0.3s linear;
+    top:0;
+    padding-top:10%;
+    z-index:100;
+}
+
+.sidebar-display-none{
+    margin-left: -80%;
+    transition:0.3s linear;
+}
+
+
+/*---------------SHOWCASE------------------*/
+
+.showcase-container{
+    margin-left: 5%;
+    margin-top:23%;
+    margin-bottom:50%;
+}
+
+.showcase-container h1{
+    font-size:50px;
+    font-weight:800;
+}
+
+.showcase-container h1 span{
+    font-size:40px;
+    font-weight:800;
+    color:#feae24;
+}
+
+.showcase-container h1{
+    font-size:40px;
+    font-weight:800;
+}
+
+.showcase-container p{
+    width:70%;
+    padding-bottom:10px;
+}
+
+#showcase-img{
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+#showcase-img > img{
+    margin-top:-8%;
+    z-index:-100;
+}
+
+
+/*------------------SERVICES----------------------*/
+
+#services{
+    width:90%;
+    margin:auto;
+    margin-bottom:14%;
+}
+
+#services h2{
+    margin-bottom:7%;
+    font-weight: 800;
+}
+
+#services  p{
+    width:85%;
+}
+
+#services .service-icon{
+    height:60px;
+    width:150px;
+    border-radius: 50%;
+    background-color: tomato;
+    margin-right:5%;
+    position:relative;
+}
+
+#services .icon1{background-color: #feae24}
+#services .icon2{background-color: tomato}
+#services .icon3{background-color: #2ff993; width:130px;}
+
+#services .icon1 > img , #services .icon2 > img , #services .icon3 > img{
+    position:absolute;
+    top:25%;
+    left:25%;
+    height:50%;
+    width:50%;
+}
+
+#services h3{
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+
+#services .mobile{
+    padding-left:9%;
+}
+
+#services button{
+    display:block;
+    margin:auto;
+    margin-top:5%;
+}
+
+/*-------------------WHY CHOOSE US --------------*/
+#About{
+    width:90%;
+    margin:auto;
+    margin-bottom:14%;
+}
+
+#About .image-container > img{
+    width:90%;
+    height:90%;
+}
+
+#About .about-content{
+    margin-top:5%;
+}
+
+#About .about-content > h2{
+    padding-bottom:20px;
+    font-weight: 800;
+}
+
+#About .about-content > p{
+    padding-bottom:20px;
+}
+
+/*------------TESTIMONIALS-------------*/
+
+.carousel{
+    margin-top: 50px;
+    z-index:100;
+  }
+
+.carousel-inner{
+    height: 100px;
+  }
+
+.carousel-caption{
+    color: #fff;
+    top: 50%;
+  }
+
+#Testimonials{
+    background:linear-gradient(to right, #ffc054,#ffbb46);
+    margin-bottom: 14%;
+}
+
+
+#Testimonials .container{
+    padding:8% 0;
+}
+
+#Testimonials h2{
+    color:#fff;
+    margin-bottom:40px;
+}
+
+#Testimonials p{
+    color:#fff;
+}
+
+#Testimonials .client{
+    margin-left:75%;
+    margin-top:3%;
+}
+
+#Testimonials .client p{
+    font-weight:700;
+}
+
+#Testimonials .client .occu{
+    margin-top:-15px;
+}
+
+#Testimonials .client-img-container{
+    height:50px;
+    width:50px;
+    margin-right:20px;
+    border-radius:50%;
+    margin-top:4px;
+    background-image: url('./public/client.png');
+    background-size: cover;
+    border:3px solid #fff;
+}
+
+
+/*-------------------CONTACT------------------------*/
+
+#Contact{
+    width:90%;
+    margin:auto;
+    margin-bottom: 10%;
+}
+
+#Contact form{
+    margin-top:5%;
+}
+
+#Contact .image-container > img{
+    width:90%;
+    height:90%;
+    margin-left:6%;
+    margin-top:10%;
+}
+
+/*---------------BLOG------------------*/
+
+#Blog{
+    width:90%;
+    margin:auto;
+    margin-bottom:15%;
+}
+
+#Blog .card .card-body{
+    padding:8% 8%;
+}
+
+#Blog > h2{
+    text-align:center;
+    margin-bottom:5%;
+    margin-top:5%;
+}
+
+#Blog h4{
+    font-weight:600;
+    margin-bottom:18px;
+}
+
+#Blog .blog-date{
+    color:#feae24;
+    font-weight:600;
+}
+
+#Blog button{
+   padding:8px 30px;
+   margin-top:10px;
+}
+
+#Blog .blog-image-container{
+    
+}
+
+/*------------------FOOTER---------------------------*/
+footer{
+    background-color:rgb(245, 245, 245);
+    padding-top:3%;
+    border-top:3px solid #ddd;
+}
+
+footer h4{
+    font-size:20px;
+    font-weight: 700;
+}
+
+footer .whatsapp > p{
+    margin-top:-5px;
+}
+
+footer .footer-bottom {
+    margin-top:10px;
+}
+footer .footer-bottom >p{
+    font-size:13px;
+    padding-top:5px;
+}
+
+
+/*---------------RESPONSIVE DESIGN---------------------*/
+
+@media(max-width:1340px){
+    .nav-margin{
+        margin-left:20% ;
+    }
+}
+
+@media(max-width:1260px){
+    .nav-margin{
+        margin-left:15% ;
+    }
+
+    #showcase-img > img{
+        margin-top:-5%;
+        z-index:-100;
+        height:700px;
+    }
+
+    header .col-lg-8  a{
+        border-bottom:3px solid #feae24;
+        font-weight: 600;
+        color:#555;
+    }
+    
+    header .col-lg-8  a:hover{
+        border-bottom:3px solid #fff;
+    }
+}
+
+@media(max-width:1200px){
+    .nav-margin{
+        margin-left:8% ;
+    }
+
+    #showcase-img{
+        position:absolute;
+        top:0%;
+        right:0;
+    }
+    
+    #showcase-img > img{
+        margin-top:0%;
+        z-index:-100;
+        height:600px;
+    }
+
+    header .col-lg-8  a{
+        border-bottom:3px solid #feae24;
+        font-weight: 600;
+        color:#555;
+    }
+
+    @media(max-width:1110px){
+        .nav-margin{
+            margin-left:0% ;
+        }
+    }
+
+    @media(max-width:1040px){
+        .nav-margin{
+            display:none;
+        }
+
+        #bar{
+            display:inline-block;
+            position:absolute;
+            top:0%;
+            right:0%;
+        }
+
+        .showcase-container h1{
+            font-size: 30px;
+        }
+
+        .showcase-container h1 span{
+            font-size:30px;
+        }
+
+        header .col-md-4 > a{
+            font-size: 20px;
+        }
+        
+        header .col-lg-4 > a > span{
+            font-size: 20px;
+        }
+    }
+
+    @media(max-width:992px){
+        #showcase-img > img{
+            display:none
+        }
+
+        .showcase-container{
+            text-align: center;
+        }
+
+        .showcase-container p{
+            width:100%;
+            padding-bottom:10px;
+        }
+
+        .showcase-container h1{
+            font-size: 40px;
+        }
+
+        .showcase-container h1 span{
+            font-size:40px;
+        }
+
+        header .col-lg-4 > a{
+            font-size: 18px;
+        }
+        
+        header .col-lg-4 > a > span{
+            font-size: 18px;
+        }
+    }
+
+    @media(max-width:650px){
+        .showcase-container{
+            margin-top:35%;
+        }
+
+        .flex-container{
+            display:block;
+        }
+
+        #services .mobile{
+            padding-left:0%;
+        }
+
+        #services > h2{
+            text-align:center;
+            margin-bottom:15%;
+        }
+
+        #services  p{
+            width:100%;
+        }
+
+        #services .flex-item{
+            text-align:center;
+        }
+
+        #services .service-icon{
+            height:70px;
+            width:80px;
+            border-radius: 50%;
+            margin:auto;
+            margin-bottom:20px;
+        }
+
+        #services{
+            margin-bottom:20%;
+        }
+
+        #About .image-container > img{
+            width:100%;
+            height:100%;
+        }
+
+        #About h2 {
+            margin-top:10%;
+        }
+
+        #About h2 , #About p {
+            text-align:center;
+        }
+
+        #About .about-content{
+            text-align:center;
+        }
+
+        #Testimonials{
+            padding:20% 10%;
+        }
+
+        #Testimonials .client{
+            margin-left:0%;
+            margin-top:3%;
+            text-align: center;
+        }
+
+        #Testimonials .client-img-container{
+            margin:auto;
+            margin-bottom:10px;
+        }
+
+        #Blog h2{
+            margin-bottom:10%;
+            margin-top:10%;
+        }
+
+        #Blog .card{
+            margin-bottom:10%;
+        }
+    }
+}

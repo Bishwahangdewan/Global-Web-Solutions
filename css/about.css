@@ -1,0 +1,132 @@
+/*-------------------About Hero Area--------------------*/
+
+.about-img-container{
+    margin-top:0%;
+}
+
+header .col-lg-8  a{
+    color:#333;
+    border-bottom:3px solid #fff;
+    z-index:100 ;
+}
+
+header .col-lg-8  a:hover{
+    border-bottom:3px solid #feae24;
+}
+
+.nav-margin{
+    margin-left: 30%;
+}
+
+
+/*----------------------SHOWCASE-------------------------*/
+.showcase-container{
+    margin-top:9%;
+}
+
+.counter1 , .counter2 {
+    box-shadow: 1px 1px 7px #bbb;
+    border-radius: 10px;
+}
+
+.counter1 > h3 , .counter2 > h3{
+    font-weight: 800;
+    color:#feae24;
+}
+
+.counter1 > h6{
+    font-weight: 800;
+}
+
+/*------------------------WHAT WE DO------------------*/
+
+#About .image-container > img{
+    width:80%;
+    height:80%;
+    margin-top:8%;
+}
+
+#About .about-content > h2{
+    padding-bottom:20px;
+    font-weight: 800;
+}
+
+#About .image-container2 >img {
+    margin-top:14%;
+    width:80%;
+    height:80%;
+    margin-left:12%;
+}
+
+/*----------------Team-----------------------------*/
+#Team {
+    width:90%;
+    margin:auto;
+    margin-bottom:15%;
+}
+
+#Team h2{
+    margin-bottom:5%;
+}
+
+#Team h5{
+    font-weight: 700;
+}
+
+#Team .team-img-container{
+    margin:auto;
+}
+
+#Team .team-img-container > img {
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    border:5px solid #feae24;
+}
+
+/*--------------------------Background-image--------------------*/
+#background-img{
+    position:absolute;
+    top:45%;
+    right:0;
+}
+
+#background-img > img{
+    margin-top:-8%;
+    z-index:-100;
+}
+
+/*-----------------RESPONSIVE---------------------*/
+
+@media(max-width:1340px){
+    .nav-margin{
+        margin-left:20% ;
+    }
+}
+
+@media(max-width:1260px){
+    .nav-margin{
+        margin-left:18% ;
+    }
+}
+
+@media(max-width:1200px){
+    .nav-margin{
+        margin-left:8% ;
+    }
+}
+
+@media(max-width:992px){
+    #About .about-content{
+        text-align: center;
+    }
+    #About .image-container > img{
+        display:block;
+        margin:auto;
+    }
+
+    #About .image-container2 >img {
+        display:block;
+        margin:auto;
+    }
+}
